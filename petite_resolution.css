@@ -1,0 +1,40 @@
+body {
+    color: black;
+    width: 140%;
+    font-size: 4.0em;
+    margin: 10px;
+    margin-right: 1px;
+    background-color: white;
+}
+
+header {
+    background: url('image/chas.jpg') repeat-x;
+    height: 400px;
+    position: relative;
+
+}
+
+article {
+    padding: 20px;
+}
+
+figure img {
+    padding: 200px;
+    width: 70%;
+}
+
+.voir {
+    border: solid 1px black;
+    background-color: blue;
+    text-decoration: none;
+    color: black;
+    width: 70%;
+    height: 100px;
+    text-align: center;
+}
+
+footer img {
+    width: 250%;
+    padding-left: 5px;
+    margin: 4px;
+}

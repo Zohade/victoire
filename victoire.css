@@ -1,0 +1,167 @@
+body {
+	background-color: rgb(239, 74, 180);
+	font-size: 35px;
+	width: 110%px;
+	max-width: 100%;
+}
+
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	color: white;
+}
+
+#no1 {
+	background-image: url('image/forme.png');
+	display: inline-block;
+	color: floralwhite;
+	background-repeat: no-repeat;
+	width: 1340px;
+	margin-left: 0px;
+	font-style: oblique;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+	margin-bottom: 2px;
+	padding: 2px;
+	background-image: transparent;
+}
+
+article {
+	text-align: justify;
+	font-size: 1.1em;
+	border: none;
+	border-width: 600px;
+}
+
+header {
+	background: url('image/tete.png') repeat-x;
+	height: 400px;
+	position: relative;
+}
+
+#banni {
+	margin-left: 270px;
+	margin-bottom: 70px;
+	position: absolute;
+	display: block;
+}
+
+div banni {
+	display: block;
+	position: relative;
+	margin-left: 150px;
+	background-image: transparent;
+	background-position: bottom;
+}
+
+#base {
+	float: right;
+	margin-left: 500px;
+}
+
+.voir {
+	float: right;
+	color: rgb(153, 51, 0);
+	margin-right: 10px;
+}
+
+div a {
+	color: rgb(153, 51, 0);
+	text-decoration: underline;
+	font-size: 1.3em;
+}
+
+footer {
+	border: solid 1px black;
+	text-align: center;
+	border-radius: 5px;
+	background-color: darkcyan;
+	font-size: 0.7em;
+}
+
+footer p {
+	margin-top: 70px;
+}
+
+footer a {
+	display: inline-block;
+	padding: 15px;
+	margin-left: 50px;
+}
+
+#alpha {
+	text-decoration: none;
+	background-color: rgb(222, 148, 49);
+	color: black;
+	border: solid 2px;
+	border-radius: 1px;
+	border-width: 3px;
+}
+
+#design {
+	text-decoration: none;
+	display: inline;
+}
+
+#envoyer {
+	background-color: #993300;
+}
+
+@media (max-width: 780px) {
+
+
+	body {
+
+		width: 100%;
+	}
+
+	figure img {
+		display: inline;
+	}
+}
+
+.abonne img {
+	margin-left: 900px;
+}
+
+textarea {
+	margin-left: 40%;
+	width: 500px;
+	height: 80px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+figure img {
+	border-radius: 20px 20px 20px 20px;
+	width: 200px;
+}
+
+form {
+
+	color: black;
+	font-size: 0.5em;
+	text-align: justify;
+	width: 70%;
+	margin-left: 80px;
+	margin-top: 380px;
+	margin-bottom: 400px;
+	padding: 50px;
+	margin: auto;
+	box-shadow: 10px 10px 10px 10px;
+}
+
+#mail {
+	width: 60%;
+	margin-left: 40%;
+	width: 500px;
+	height: 40px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#envoyer {
+	margin-left: 90%;
+}
